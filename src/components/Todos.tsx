@@ -16,10 +16,10 @@ const Todos = () => {
   }
   return (
     <div>
-      <ul>
+      <ul className="main-task">
         {filterData.map((todo: Todo) => {
           return (
-            <div key={todo.id}>
+            <li key={todo.id}>
               <input
                 type="checkbox"
                 id={`todo-${todo.id}`}
@@ -32,7 +32,7 @@ const Todos = () => {
                   Delete
                 </button>
               )}
-            </div>
+            </li>
           );
         })}
       </ul>

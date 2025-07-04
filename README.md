@@ -6,10 +6,6 @@ A simple and efficient ToDo tracking application built with **React**, **TypeScr
 
 👉 [Visit GitHub Repo](https://github.com/nurmohammadapu/todo-tracker-ts)
 
-## 📸 Screenshots
-
-> *(Add screenshots if available, like home page, add task form, etc.)*
-
 ## 🛠️ Features
 
 - ✅ Add new tasks
