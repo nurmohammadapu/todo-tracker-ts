@@ -1,107 +1,120 @@
-# 📝 Todo-Tracker-Ts - A Simple ToDo App with React & TypeScript
+# 📝 ToDo Tracker TS
 
-A clean and minimal ToDo application built with **React**, **TypeScript**, and basic **CSS**. This project is created for learning and practice purposes.
+A simple and efficient ToDo tracking application built with **React**, **TypeScript**, and **Vite**. This app allows users to manage their tasks in an organized way using a minimal and responsive UI.
 
----
+## 🚀 Live Demo
 
-## 🚀 Features
-
-- ✅ Add new tasks
-- 🖊️ Edit existing tasks
-- 🗑️ Delete tasks
-- 📌 Mark tasks as completed or pending
-- 💾 LocalStorage support (optional)
-
----
-
-## 🛠️ Tech Stack
-
-- **React** (with functional components & hooks)
-- **TypeScript**
-- **CSS** (or Tailwind, if you used it)
-- [Optional] Redux / Context API for state management
-
----
+👉 [Visit GitHub Repo](https://github.com/nurmohammadapu/todo-tracker-ts)
 
 ## 📸 Screenshots
 
-> *(Add a screenshot here if available)*
+> *(Add screenshots if available, like home page, add task form, etc.)*
 
----
+## 🛠️ Features
 
-## 📦 Getting Started
+- ✅ Add new tasks
+- 🗑️ Delete tasks
+- 📌 Mark tasks as completed
+- 💡 Uses React Hooks and functional components
+- 🧼 Clean, minimalistic UI
+- ⚡ Fast build with Vite
 
-Clone the repository:
+## 🧰 Tech Stack
 
-```bash
-git clone https://github.com/yourusername/tasknest.git
-cd tasknest
+- **Framework**: [React 19](https://react.dev/)
+- **Language**: TypeScript
+- **Routing**: React Router DOM v7
+- **Bundler**: Vite
+- **State Management**: useState (local state)
+- **Linting**: ESLint with React plugins
+
+## 📁 Folder Structure
+
+```
+
+todo-tracker-ts/
+│
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── AddToDo.tsx
+│   │   ├── Navbar.tsx
+│   │   └── Todos.tsx
+│   ├── store/
+│   │   └── todos.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── App.css
+│
+├── .gitignore
+├── README.md
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+
 ````
 
-Install dependencies:
+## ⚙️ Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/nurmohammadapu/todo-tracker-ts.git
+cd todo-tracker-ts
+````
+
+2. **Install dependencies**
 
 ```bash
 npm install
 ```
 
-Run the development server:
+3. **Run the development server**
 
 ```bash
 npm run dev
 ```
 
----
-
-## 📁 Folder Structure
+4. **Build for production**
 
 ```bash
-src/
-├── components/
-│   ├── TaskList.tsx
-│   ├── TaskItem.tsx
-│   └── TaskForm.tsx
-├── types/
-│   └── task.d.ts
-├── App.tsx
-└── main.tsx
+npm run build
 ```
 
----
+5. **Preview production build**
 
-## 🧠 Learning Goals
+```bash
+npm run preview
+```
 
-* Understand React with TypeScript
-* Learn props, state, and component communication
-* Practice TypeScript interfaces and typing
-* Manage state efficiently
-* Build a complete CRUD UI
+## 📋 Scripts
 
----
+| Command           | Description                 |
+| ----------------- | --------------------------- |
+| `npm run dev`     | Run in development mode     |
+| `npm run build`   | Build the app               |
+| `npm run preview` | Preview production build    |
+| `npm run lint`    | Run ESLint for code quality |
 
-## 📌 Future Improvements (Optional)
+## 🧪 Linting & Code Quality
 
-* Add due dates / reminders
-* Add category or priority tags
-* Use localStorage or backend (like Firebase / Express)
-* Add animations (Framer Motion)
+Configured with:
 
----
+* `eslint`
+* `@eslint/js`
+* `eslint-plugin-react-hooks`
+* `eslint-plugin-react-refresh`
 
-## 📜 License
+Run the linter using:
 
-This project is for educational purposes only. Feel free to fork and customize!
-
----
-
-## 🙌 Acknowledgements
-
-Inspired by various tutorials and React documentation.
-
----
-
-## ✨ Author
-
-**Nur Mohammad Apu**
-[GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
+```bash
+npm run lint
+```
+Made with ❤️ by [Nur Mohammad Apu](https://github.com/nurmohammadapu)
 
 

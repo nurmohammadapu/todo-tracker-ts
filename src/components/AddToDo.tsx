@@ -1,14 +1,18 @@
 import { useState, type FormEvent } from "react"
+import { useTodos } from "../store/todos";
 
 const AddToDo = () => {
 
     const [todo,setTodo] = useState("");
+    const {handleAddToDo} = useTodos();
 
     const setData = (e:React.ChangeEvent<HTMLInputElement>) => {
         setTodo(e.target.value);
     }
     const handleFormSubmit = (e:FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        handleAddToDo(todo);
+        setTodo("");
     }
   return (
     <div>
